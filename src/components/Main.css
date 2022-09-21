@@ -1,0 +1,80 @@
+
+.ant-layout-sider-trigger{
+    display: none !important
+}
+
+/* Sider1 css */
+.Sider1{
+    flex: 0 0 180px !important;
+    max-width: 180px !important;
+    min-width: 180px !important;
+    width: 180px !important;
+} 
+
+.ant-menu{
+    margin-left: 5px!important;
+}
+.ant-menu-item::after, .ant-menu-item-selected, .ant-menu-item-active{ 
+    color: #7641EC!important;
+    border-left: 3px solid #7641EC!important;
+    background-color:#FAF9FE !important;
+    margin-left: -3px!important;
+}
+.ant-menu .ant-btn-primary{
+    color: white !important;
+    background-color:#7641EC !important;
+    border:1px #7641EC  !important
+}
+.ant-menu .ant-btn-link{
+    color: #9a9a9a !important;
+}
+.ant-menu .ant-btn-link{
+    color: #9a9a9a !important;
+}
+.ant-menu-item-active .ant-btn.ant-btn-link{
+    color: #7641EC !important
+}
+.ant-btn-link:disabled,
+.ant-btn-link[disabled]{
+    color: black!important;
+    font-weight: bolder!important;
+}
+
+
+/* Sider2 CSS */
+
+.Sider2{
+    flex: 0 0 500px !important;
+    max-width: 500px !important;
+    min-width: 500px !important;
+    width: 500px !important;
+   
+}
+.ant-list{
+    background-color:#FAF9FE
+}
+.ant-list-item:hover{
+    color: #7641EC!important;
+    border-left: 3px solid #7641EC!important;
+    background-color:#ffffff !important;
+    margin-left: -3px!important;
+}
+
+.search-email button{
+border: none;
+background-color: #FAF9FE;
+color: #7641EC;
+}
+
+/* Sider3 CSS */
+.Sider3{
+    flex: 0 0 760px !important;
+    max-width: 760px !important;
+    min-width: 760px !important;
+    width: 760px !important;
+    
+}
+
+.Sider3 div.ant-typography,.Sider3 span.ant-typography {
+    color: gray !important;
+}
